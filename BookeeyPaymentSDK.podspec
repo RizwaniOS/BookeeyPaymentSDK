@@ -28,12 +28,14 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Bookeey Xenon4Pay" => "m.rizwan@xenon4pay.com" }
   spec.source       = { :git => "https://github.com/RizwaniOS/BookeeyPaymentSDK.git", :tag => "#{spec.version}" }
-  spec.swift_version  = "5"
+  spec.swift_version  = "5.3"
 
 # Supported deployment targets
-  spec.ios.deployment_target  = "12.0"
+  spec.platform = :ios, '12.0'
 
 # Published binaries
- vendored_frameworks = "BookeeyPaySDK.xcframework"
+ spec.vendored_frameworks = "BookeeyPaySDK.xcframework"
+ spec.framework        = 'SystemConfiguration'
+ spec.ios.framework  = 'UIKit'
 
 end
