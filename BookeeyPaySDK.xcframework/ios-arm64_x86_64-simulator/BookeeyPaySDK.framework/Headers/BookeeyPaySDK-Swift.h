@@ -515,6 +515,16 @@ SWIFT_CLASS("_TtC13BookeeyPaySDK12UsrAuthModel")
 @end
 
 
+SWIFT_CLASS("_TtC13BookeeyPaySDK19WalletAloneResponse")
+@interface WalletAloneResponse : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC13BookeeyPaySDK28WalletAloneTransactionDetail")
+@interface WalletAloneTransactionDetail : NSObject
+@end
+
+
 SWIFT_CLASS("_TtC13BookeeyPaySDK18WalletKeyInfoModel")
 @interface WalletKeyInfoModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1043,6 +1053,16 @@ SWIFT_CLASS("_TtC13BookeeyPaySDK12UsrAuthModel")
 @interface UsrAuthModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC13BookeeyPaySDK19WalletAloneResponse")
+@interface WalletAloneResponse : NSObject
+@end
+
+
+SWIFT_CLASS("_TtC13BookeeyPaySDK28WalletAloneTransactionDetail")
+@interface WalletAloneTransactionDetail : NSObject
 @end
 
 

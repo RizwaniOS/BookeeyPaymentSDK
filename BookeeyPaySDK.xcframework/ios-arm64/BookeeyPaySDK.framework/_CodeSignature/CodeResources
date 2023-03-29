@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BookeeyPaySDK-Swift.h</key>
 		<data>
-		MFFDAzrrtdaJwEt4gOJy7MQyHxo=
+		DRksm7oI5+tJFGGMsaia0zxmLWI=
 		</data>
 		<key>Headers/BookeeyPaySDK.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		5rKRgSo1z0JrspsbbMTd5tWG698=
+		Qp6BG4rmsj6qqCGXwDF4KgpV5U0=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sfiTwK8TD1T9lEWHjJmy6hx4AZg=
+		09IE/HVY7qoDXwqhk+scnpQ73pU=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		4fE1TSBIkIxOS+nmLMC2tFTEnHE=
+		8ILfILuE3t6JQG8sjNjFA5dSy9I=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		4fE1TSBIkIxOS+nmLMC2tFTEnHE=
+		8ILfILuE3t6JQG8sjNjFA5dSy9I=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		WUcuP8e+nOUkIJ9A8mo0lXTszGM=
+		fn8CcAry7/b0MCozjay7d7qy01Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/1eUZoMWcQW8JX2cImR3C3LSrK5qpUPEsp8Gwg5V6A=
+			HwjUC4EWJ8PBAi1QhE4WdATbaotc7Zd9tkafVw0mwfM=
 			</data>
 		</dict>
 		<key>Headers/BookeeyPaySDK.h</key>
@@ -73,21 +73,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CdvY0at2DwAqMEEdZbNDbZbpLimBDE4LWookL08tDkY=
+			3FVUsDmci+xH9xTjnmE1ZHezYGJ/RuzLrLSNFGt7qxE=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRGuIlQDRs9y1CE2zd7TReIYf96H1jr0t7/ZeGr+YDo=
+			9X3WgMM12Y91MPPHuegjqUtTUkpVPRnIubq6D+dvbXs=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UIGjMOlmnO/a0v8NNxsTdC3WhGtIxs+MnjKkBKopwE8=
+			9UukXATmok9uVdOZHMYKBo7a4zRikYr+KMpdwVYTXEg=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UIGjMOlmnO/a0v8NNxsTdC3WhGtIxs+MnjKkBKopwE8=
+			9UukXATmok9uVdOZHMYKBo7a4zRikYr+KMpdwVYTXEg=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k55qNakf7a+6AzajGLB3wN/sGqnh0o7O3SWisNKqnLc=
+			bhfuoVEK8M/xao3lKNqc4SK+4+zUDMqjVoQpcnvcrU8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

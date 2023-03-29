@@ -99,6 +99,34 @@ public class SDKModel {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
+@objc public class WalletAloneResponse : ObjectiveC.NSObject, Swift.Codable {
+  final public let data: BookeeyPaySDK.WalletAloneTransactionDetail?
+  final public let isSuccess: Swift.Bool?
+  final public let message: Swift.String?
+  final public let isWltAlone: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public class WalletAloneTransactionDetail : ObjectiveC.NSObject, Swift.Codable {
+  final public let TrackUID: Swift.String?
+  final public let WalletTrackUID: Swift.String?
+  final public let Captured_AMT: Swift.String?
+  final public let PGRef: Swift.String?
+  final public let PayMethod: Swift.String?
+  final public let Wlt_Bal: Swift.String?
+  final public let DOResponse: Swift.String?
+  final public let TOResponse: Swift.String?
+  final public let PayStat: Swift.String?
+  final public let MerchTxnUId: Swift.String?
+  final public let ErrorCD: Swift.String?
+  final public let ErrorDesc: Swift.String?
+  final public let WltKey: Swift.String?
+  final public let WltID: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
 @objc public class LoadTransactionDetail : ObjectiveC.NSObject, Swift.Codable {
   final public let loadWalletResponse: BookeeyPaySDK.LoadTransactionResponseDetail?
   @objc deinit

@@ -3998,6 +3998,1434 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "WalletAloneResponse",
+        "printedName": "WalletAloneResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BookeeyPaySDK.WalletAloneTransactionDetail?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletAloneTransactionDetail",
+                    "printedName": "BookeeyPaySDK.WalletAloneTransactionDetail",
+                    "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneTransactionDetail"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC4dataAA0dE17TransactionDetailCSgvp",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC4dataAA0dE17TransactionDetailCSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "Final"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BookeeyPaySDK.WalletAloneTransactionDetail?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletAloneTransactionDetail",
+                        "printedName": "BookeeyPaySDK.WalletAloneTransactionDetail",
+                        "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneTransactionDetail"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK19WalletAloneResponseC4dataAA0dE17TransactionDetailCSgvg",
+                "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC4dataAA0dE17TransactionDetailCSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccess",
+            "printedName": "isSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC9isSuccessSbSgvp",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC9isSuccessSbSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "Final"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK19WalletAloneResponseC9isSuccessSbSgvg",
+                "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC9isSuccessSbSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC7messageSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC7messageSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "Final"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK19WalletAloneResponseC7messageSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC7messageSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWltAlone",
+            "printedName": "isWltAlone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC05isWltE0SbSgvp",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC05isWltE0SbSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "Final"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK19WalletAloneResponseC05isWltE0SbSgvg",
+                "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC05isWltE0SbSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletAloneResponse",
+                "printedName": "BookeeyPaySDK.WalletAloneResponse",
+                "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BookeeyPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13BookeeyPaySDK19WalletAloneResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "BookeeyPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneResponse",
+        "mangledName": "$s13BookeeyPaySDK19WalletAloneResponseC",
+        "moduleName": "BookeeyPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletAloneTransactionDetail",
+        "printedName": "WalletAloneTransactionDetail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "TrackUID",
+            "printedName": "TrackUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC8TrackUIDSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC8TrackUIDSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC8TrackUIDSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC8TrackUIDSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "WalletTrackUID",
+            "printedName": "WalletTrackUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0D8TrackUIDSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0D8TrackUIDSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0D8TrackUIDSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0D8TrackUIDSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Captured_AMT",
+            "printedName": "Captured_AMT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC12Captured_AMTSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC12Captured_AMTSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC12Captured_AMTSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC12Captured_AMTSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PGRef",
+            "printedName": "PGRef",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC5PGRefSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC5PGRefSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC5PGRefSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC5PGRefSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PayMethod",
+            "printedName": "PayMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0B6MethodSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0B6MethodSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0B6MethodSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0B6MethodSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Wlt_Bal",
+            "printedName": "Wlt_Bal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC7Wlt_BalSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC7Wlt_BalSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC7Wlt_BalSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC7Wlt_BalSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DOResponse",
+            "printedName": "DOResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC10DOResponseSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC10DOResponseSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC10DOResponseSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC10DOResponseSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TOResponse",
+            "printedName": "TOResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC10TOResponseSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC10TOResponseSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC10TOResponseSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC10TOResponseSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PayStat",
+            "printedName": "PayStat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0B4StatSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0B4StatSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC0B4StatSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC0B4StatSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MerchTxnUId",
+            "printedName": "MerchTxnUId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC11MerchTxnUIdSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC11MerchTxnUIdSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC11MerchTxnUIdSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC11MerchTxnUIdSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ErrorCD",
+            "printedName": "ErrorCD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC7ErrorCDSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC7ErrorCDSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC7ErrorCDSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC7ErrorCDSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ErrorDesc",
+            "printedName": "ErrorDesc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC9ErrorDescSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC9ErrorDescSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC9ErrorDescSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC9ErrorDescSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "WltKey",
+            "printedName": "WltKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC6WltKeySSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC6WltKeySSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC6WltKeySSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC6WltKeySSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "WltID",
+            "printedName": "WltID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC5WltIDSSSgvp",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC5WltIDSSSgvp",
+            "moduleName": "BookeeyPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC5WltIDSSSgvg",
+                "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC5WltIDSSSgvg",
+                "moduleName": "BookeeyPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletAloneTransactionDetail",
+                "printedName": "BookeeyPaySDK.WalletAloneTransactionDetail",
+                "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneTransactionDetail"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BookeeyPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13BookeeyPaySDK28WalletAloneTransactionDetailC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC6encode2toys7Encoder_p_tKF",
+            "moduleName": "BookeeyPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BookeeyPaySDK@objc(cs)WalletAloneTransactionDetail",
+        "mangledName": "$s13BookeeyPaySDK28WalletAloneTransactionDetailC",
+        "moduleName": "BookeeyPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "LoadTransactionDetail",
         "printedName": "LoadTransactionDetail",
         "children": [
@@ -18908,21 +20336,21 @@
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/PaymentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10517,
+      "offset": 14395,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/PaymentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10560,
+      "offset": 14438,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/PaymentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11885,
+      "offset": 15768,
       "length": 9,
       "value": "\"Request\""
     },
@@ -19013,233 +20441,149 @@
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 1783,
+      "offset": 2559,
       "length": 22,
       "value": "\"BookeeyPaySDK.BookeeySuccessResponse\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 3772,
       "length": 19,
       "value": "\"BookeeyPaySDK.BookeeyFailResponse\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 4205,
+      "offset": 4981,
       "length": 20,
       "value": "\"BookeeyPaySDK.BookeeyErrorResponse\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 4966,
+      "offset": 5742,
       "length": 8,
       "value": "\"Ld_Wlt\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 4569,
+      "offset": 5345,
       "length": 22,
       "value": "\"BookeeyPaySDK.LoadWalletRequestModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 5968,
+      "offset": 6744,
       "length": 9,
       "value": "\"PY_ECom\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 5582,
+      "offset": 6358,
       "length": 19,
       "value": "\"BookeeyPaySDK.PayloadRequestModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 7199,
+      "offset": 7975,
       "length": 8,
       "value": "\"Ld_Pay\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 7783,
+      "offset": 8559,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 6583,
+      "offset": 7359,
       "length": 24,
       "value": "\"BookeeyPaySDK.SplitPaymentRequestModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8521,
+      "offset": 9297,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8542,
+      "offset": 9318,
       "length": 6,
       "value": "\"ECom\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8572,
+      "offset": 9348,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 9370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8616,
+      "offset": 9392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
+      "offset": 9029,
       "length": 31,
       "value": "\"BookeeyPaySDK.SplitPaymentTransactionHdrModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 9055,
+      "offset": 9831,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 9076,
+      "offset": 9852,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 9098,
+      "offset": 9874,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 9120,
+      "offset": 9896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 8823,
+      "offset": 9599,
       "length": 34,
       "value": "\"BookeeyPaySDK.SplitPaymentTransactionDetailModel\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9612,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9641,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9669,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9690,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9714,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9736,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9758,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 9284,
-      "length": 22,
-      "value": "\"BookeeyPaySDK.TransactionPayHdrModel\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 10299,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 10320,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 10344,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
-      "kind": "StringLiteral",
-      "offset": 10366,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
@@ -19251,434 +20595,518 @@
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 10045,
+      "offset": 10417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10490,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10512,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10534,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10060,
+      "length": 22,
+      "value": "\"BookeeyPaySDK.TransactionPayHdrModel\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 11075,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 11096,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 11120,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 11142,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 11164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
+      "kind": "StringLiteral",
+      "offset": 10821,
       "length": 19,
       "value": "\"BookeeyPaySDK.TransactionHdrModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 10750,
+      "offset": 11526,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 10772,
+      "offset": 11548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 10591,
+      "offset": 11367,
       "length": 22,
       "value": "\"BookeeyPaySDK.TransactionDetailModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11087,
+      "offset": 11863,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11113,
+      "offset": 11889,
       "length": 6,
       "value": "\"ECom\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11136,
+      "offset": 11912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11155,
+      "offset": 11931,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 10876,
+      "offset": 11652,
       "length": 20,
       "value": "\"BookeeyPaySDK.MerchantPayInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11519,
+      "offset": 12295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11545,
+      "offset": 12321,
       "length": 5,
       "value": "\"WLT\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11567,
+      "offset": 12343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11586,
+      "offset": 12362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11311,
+      "offset": 12087,
       "length": 17,
       "value": "\"BookeeyPaySDK.MerchantInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11892,
+      "offset": 12668,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11915,
+      "offset": 12691,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 11742,
+      "offset": 12518,
       "length": 14,
       "value": "\"BookeeyPaySDK.PayerInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12204,
+      "offset": 12980,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12229,
+      "offset": 13005,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12254,
+      "offset": 13030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12019,
+      "offset": 12795,
       "length": 13,
       "value": "\"BookeeyPaySDK.MorePayDetail\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12501,
+      "offset": 13277,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12399,
+      "offset": 13175,
       "length": 10,
       "value": "\"BookeeyPaySDK.MoreDetail\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12709,
+      "offset": 13485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12731,
+      "offset": 13507,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12560,
+      "offset": 13336,
       "length": 12,
       "value": "\"BookeeyPaySDK.UsrAuthModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12982,
+      "offset": 13758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13006,
+      "offset": 13782,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 12836,
+      "offset": 13612,
       "length": 17,
       "value": "\"BookeeyPaySDK.MerchantAuthModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13339,
+      "offset": 14115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13359,
+      "offset": 14135,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13381,
+      "offset": 14157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13405,
+      "offset": 14181,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13429,
+      "offset": 14205,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13104,
+      "offset": 13880,
       "length": 15,
       "value": "\"BookeeyPaySDK.DeviceInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13936,
+      "offset": 14712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13964,
+      "offset": 14740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13986,
+      "offset": 14762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14005,
+      "offset": 14781,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14024,
+      "offset": 14800,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14045,
+      "offset": 14821,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14067,
+      "offset": 14843,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 13623,
+      "offset": 14399,
       "length": 26,
       "value": "\"BookeeyPaySDK.LoadTransactionDetailModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14497,
+      "offset": 15273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14520,
+      "offset": 15296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14543,
+      "offset": 15319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14320,
+      "offset": 15096,
       "length": 19,
       "value": "\"BookeeyPaySDK.UserDetailInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14808,
+      "offset": 15584,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14828,
+      "offset": 15604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14670,
+      "offset": 15446,
       "length": 18,
       "value": "\"BookeeyPaySDK.WalletKeyInfoModel\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15323,
+      "offset": 16099,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15346,
+      "offset": 16122,
       "length": 4,
       "value": "\"PG\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15369,
+      "offset": 16145,
       "length": 6,
       "value": "\"MAPP\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15394,
+      "offset": 16170,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15419,
+      "offset": 16195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15442,
+      "offset": 16218,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15466,
+      "offset": 16242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15488,
+      "offset": 16264,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15508,
+      "offset": 16284,
       "length": 9,
       "value": "\"Pay_Req\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15532,
+      "offset": 16308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 15556,
+      "offset": 16332,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rizwannasar\/Documents\/Bookeey\/BookeeyPaySDK\/BookeeyPaySDK\/SDKModelClass.swift",
       "kind": "StringLiteral",
-      "offset": 14918,
+      "offset": 15694,
       "length": 12,
       "value": "\"BookeeyPaySDK.AppInfoModel\""
     }

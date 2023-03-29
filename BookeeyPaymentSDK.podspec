@@ -16,14 +16,14 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BookeeyPaymentSDK"
-  spec.version      = "1.1.0"
+  spec.version      = "1.2.0"
   spec.summary      = "BookeeyPay hassle free iOS payment SDK for both ObjectiveC and Swift"
 
   spec.description  = <<-DESC
                     Bookeey Pay is easy payment integration in iOS apps for both ObjectiveC and Swift made hassle free
                    DESC
 
-  spec.homepage     = "https://github.com/RizwaniOS/BookeeyPaymentSDK"
+  spec.homepage     = "https://cocoapods.org/pods/BookeeyPaymentSDK"
   spec.license      = { :type => "MIT" }
 
   spec.author             = { "Bookeey Xenon4Pay" => "m.rizwan@xenon4pay.com" }

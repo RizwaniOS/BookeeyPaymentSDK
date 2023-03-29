@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BookeeyPaySDK-Swift.h</key>
 		<data>
-		YmfOgtCjkVSVOCedRHjRTUjCedc=
+		FPSUEbV8CrQYvZ5/f7rMVZerPtI=
 		</data>
 		<key>Headers/BookeeyPaySDK.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		mIp83X6DsCBKmj8kIr/b/b3YWxM=
+		xL44wl1HskeEGMtyAC7L/yScO4c=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1jfxywCICKkP2oJG7t4spRvB9o0=
+		KryROFg4Kyv/mC0sj1MqeqY0Bmg=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sfiTwK8TD1T9lEWHjJmy6hx4AZg=
+		09IE/HVY7qoDXwqhk+scnpQ73pU=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UoW/5DjDNTcI6tF7OephMJLnjME=
+		rs1Wpd6s2beEcZrOdKm2gSChwig=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UoW/5DjDNTcI6tF7OephMJLnjME=
+		rs1Wpd6s2beEcZrOdKm2gSChwig=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dq+OjjZhejplqpS7ENwCP0GGOAw=
+		BK/I2vT7xSr/g0/ReuqQhglOVQQ=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sfiTwK8TD1T9lEWHjJmy6hx4AZg=
+		09IE/HVY7qoDXwqhk+scnpQ73pU=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		70puxVEmy/C/Ut/RWAZXAWIG3IQ=
+		g2tsmr5t8ROyui2qGB7iWM6ynEk=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		70puxVEmy/C/Ut/RWAZXAWIG3IQ=
+		g2tsmr5t8ROyui2qGB7iWM6ynEk=
 		</data>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nAPwZ47JZFyE7qBZXZZYBQ6Lyeg=
+		x5UNgpEsxffvVgJhyNe9Ad1OU+g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bt+n7FB3b8f27FcM3YgQBRMTqM6F8qNs9zxZkzuB/1w=
+			a9p8EYgtu7jMlT4sU9wEbHrbyydFFLWPQUtuBVUFaqs=
 			</data>
 		</dict>
 		<key>Headers/BookeeyPaySDK.h</key>
@@ -97,28 +97,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJdghrq8G7AA4AN2Nu2Xrv0WNzCsHvG4gydKTKiGVvk=
+			AaoD5GK3mDCqQFEqweaMigxnuc81OATkyaaN07CndiE=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LhDwk9ChIoEy5KOJWi8rVEtRUHAle0V3j1sucYd6KY=
+			pfOULvcehgt70gGykXFgUUCJLhSUgQ5mBPEjpH7boXY=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRGuIlQDRs9y1CE2zd7TReIYf96H1jr0t7/ZeGr+YDo=
+			9X3WgMM12Y91MPPHuegjqUtTUkpVPRnIubq6D+dvbXs=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i6Jrc6VGUwnTyKdClpdOBnEv4HF9XpgfZC0iLaUbUP4=
+			6AsckD6DubMtdNHNdNUMhI4n8EeeTnNRXxtInoGsWcM=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -132,28 +132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i6Jrc6VGUwnTyKdClpdOBnEv4HF9XpgfZC0iLaUbUP4=
+			6AsckD6DubMtdNHNdNUMhI4n8EeeTnNRXxtInoGsWcM=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rB6B/BCdvpqdOP7onGOnecjeJtDzpk2bYA5HnlKuawI=
+			i7ezHalM8ezWF9t8JFNO6p+HV8Znys6DHD35QH3PKOk=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRGuIlQDRs9y1CE2zd7TReIYf96H1jr0t7/ZeGr+YDo=
+			9X3WgMM12Y91MPPHuegjqUtTUkpVPRnIubq6D+dvbXs=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8gKhOKADsViNha7sTXhvH/xl4ylWbP5pFU3YAyakUKQ=
+			nGI4e5lZ64x6h4c+tKjKHbC1Ee6CaxiJqTRD8+Co2UU=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8gKhOKADsViNha7sTXhvH/xl4ylWbP5pFU3YAyakUKQ=
+			nGI4e5lZ64x6h4c+tKjKHbC1Ee6CaxiJqTRD8+Co2UU=
 			</data>
 		</dict>
 		<key>Modules/BookeeyPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY5SpyE5p0wvEdEgVNZiXivnViiVU5BXmcq8NajGW8Y=
+			ElRgS2ltGJ3/ZX3ByBhFQarEqL2tC/tlilbbf7cKkec=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
